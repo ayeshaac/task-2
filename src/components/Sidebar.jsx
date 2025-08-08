@@ -18,7 +18,7 @@ const Sidebar = () => {
 
       {/* Top Section */}
       <Box>
-        <Typography variant="h5" fontWeight="bold" mb={9}>
+        <Typography variant="h5" fontWeight="bold" mb={9}  style={{ marginLeft: '10px', fontSize: '2rem' }}>
           almà
         </Typography>
 
