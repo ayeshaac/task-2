@@ -117,19 +117,31 @@ const LeadsTable = ({ data }) => {
         </Table>
       </TableContainer>
 
-      {/* Pagination in Bottom Right Corner */}
-      {pageCount > 1 && (
-        <Box display="flex" justifyContent="flex-end" mt={2}>
-          <Pagination
-            count={pageCount}
-            page={page}
-            onChange={handlePageChange}
-            color="primary"
-            size="small"
-          />
-        </Box>
-      )}
+   {pageCount > 1 && (
+  <Box display="flex" justifyContent="flex-end" mt={2}>
+    <Pagination
+      count={pageCount}
+      page={page}
+      onChange={handlePageChange}
+      
+      size="small"
+      sx={{
+        '& .Mui-selected': {
+          border: '2px solid black',
+           // only selected item gets black border
+               borderRadius: 0, // make it square
+          backgroundColor: 'white',  // optional: background white
+          color: 'black',           
+        },
+      }}
+    />
+  </Box>
+)}
+
+
+      <br />
     </Box>
+    
   );
 };
 

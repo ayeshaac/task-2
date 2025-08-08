@@ -43,7 +43,7 @@ const Sidebar = () => {
 >
   A
 </Avatar>
-       <Typography style={{ marginTop: '-100px' }}>Admin</Typography>
+       <Typography style={{ marginTop: '-100px' , fontWeight: 'bold' }}>Admin</Typography>
 
       </Box>
     </Box>
