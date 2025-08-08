@@ -89,10 +89,10 @@ const LeadsTable = ({ data }) => {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell><strong>Name</strong></TableCell>
-              <TableCell><strong>Submitted</strong></TableCell>
-              <TableCell><strong>Status</strong></TableCell>
-              <TableCell><strong>Country</strong></TableCell>
+              <TableCell><strong>Name <i className="ri-arrow-down-line" style={{ fontSize: '14px', verticalAlign: 'middle' }}></i></strong></TableCell>
+              <TableCell><strong>Submitted<i className="ri-arrow-down-line" style={{ fontSize: '14px', verticalAlign: 'middle' }}></i></strong></TableCell>
+              <TableCell><strong>Status<i className="ri-arrow-down-line" style={{ fontSize: '14px', verticalAlign: 'middle' }}></i></strong></TableCell>
+              <TableCell><strong>Country<i className="ri-arrow-down-line" style={{ fontSize: '14px', verticalAlign: 'middle' }}></i> </strong></TableCell>
             </TableRow>
           </TableHead>
 
